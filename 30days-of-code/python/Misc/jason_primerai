@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Aug 23 17:20:07 2018
+
+@author: sathisanvannadil
+"""
+import json
+
+with open('myJson.json', 'r') as f:
+    docid_to_title_new = json.load(f) # Convert the JSON into a dict
+
+myList = []
+unique_words = () 
+for i in docid_to_title_new.keys():
+    myList += docid_to_title_new[i]['content']['title'].split(' ') 
+
+unique_words = set(myList)
+
+print("******************")
+print("No. of words in intital list =", len(myList))
+print("No. of unique words =", len(unique_words))
+print("\n")
+print("Unique words are :")
+print("******************")
+print(unique_words)
+print("******************")
+
+
+""" 
+Implement cleaning
+
+1. Remove punctuation marks
+2. Empty strings
+3. Capitalize first characters
+"""
+
+
+
+ 
+ 
