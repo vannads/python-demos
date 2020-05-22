@@ -1,1 +1,1 @@
-# python-demos
+# python-lectures-CIT
