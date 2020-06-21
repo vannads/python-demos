@@ -4,3 +4,4 @@ empno, lname, fname, age, salary, position
 103, Imran, Haider, 51, 150000, Executive
 104, Vancini, Adam, 55, 175000, Sr Executive
 105, Enomoto, Sheryl, 51, 98000, Consultant
+106, Sathisan, Chaithra, 25, 45000, Engineer
