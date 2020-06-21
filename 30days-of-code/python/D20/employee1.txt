@@ -1,0 +1,6 @@
+empno, lname, fname, age, salary, position
+101, Sathisan, Sheeja, 31, 45000, Banker
+102, Miller, John, 45, 43000, Accountant
+103, Imran, Haider, 51, 150000, Executive
+104, Vancini, Adam, 55, 175000, Sr Executive
+105, Enomoto, Sheryl, 51, 98000, Consultant
